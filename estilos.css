@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(b.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.contenedor{
+    width: 70%;
+    height: 100vh;
+    background: rgba(0,0,0,0.10);
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-size: xx-large;
+    padding: 15%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    color: white;
+    background-color: salmon;
+    border: none;
+}
+
+.modalmodal{
+    width: 1000px;
+    height: flex;
+    position: absolute;
+    margin: auto;
+    z-index: 5000;
+}
+.modalmodal .imagen img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.contenedor .imagen2:hover .imagen{
+    display: block;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
